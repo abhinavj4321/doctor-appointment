@@ -1,5 +1,10 @@
 # Prescripto - Doctor Appointment Booking System
 
+## Live Demos
+- **Frontend (User Portal):** [https://doctor-appointment-o08ak5twc-abhinav-jaiswals-projects-ad8a93c8.vercel.app/](https://doctor-appointment-o08ak5twc-abhinav-jaiswals-projects-ad8a93c8.vercel.app/)
+- **Admin Portal:** [https://doctor-appointment-zxdl-d11atk65z.vercel.app/](https://doctor-appointment-zxdl-d11atk65z.vercel.app/)
+- **Backend API:** [https://doctor-appointment-9328.onrender.com](https://doctor-appointment-9328.onrender.com)
+
 ## Overview
 A comprehensive full-stack MERN application that allows patients to browse doctors by specialty and book appointments seamlessly. It also includes an Admin panel for system management and a Doctor panel for managing upcoming appointments.
 
@@ -8,6 +13,7 @@ A comprehensive full-stack MERN application that allows patients to browse docto
   - Browse doctors by specialty.
   - Book, view, and cancel appointments.
   - User authentication and profile management.
+  - Payment gateway integration (Stripe & Razorpay).
 - **Admin Portal:**
   - Add and manage doctors, including photo uploads.
   - View all system appointments and overall dashboard metrics.
@@ -23,6 +29,7 @@ A comprehensive full-stack MERN application that allows patients to browse docto
 - **Database:** MongoDB Atlas
 - **Media Storage:** Cloudinary
 - **Authentication:** JSON Web Tokens (JWT)
+- **Payments:** Stripe SDK, Razorpay API
 
 ## Project Structure
 This is a monorepo containing three micro-applications:
